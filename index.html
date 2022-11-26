@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <title>Rock Paper Scissor</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
-            <input type="image" src="photos/rock.png" id="pic" value="rock">
-            <input type="image" src="photos/paper.png" id="pic" value="paper">
-            <input type="image" src="photos/scissor.png" id="pic" value="scissor">
+        <div class="header">
+            <div>
+                <input type="image" src="photos/rock.png" id="pic" value="rock">
+                <input type="image" src="photos/paper.png" id="pic" value="paper">
+                <input type="image" src="photos/scissor.png" id="pic" value="scissor">
+            </div>
+            <div id="result"></div>
         </div>
-        <div id="result"></div>
         <script src="javascript.js"></script>
     </body>
 </html>
